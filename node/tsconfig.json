@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "watch": true,
+    "outDir": "bin",
+    "module": "node16"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "bin",
+    "**/*.spec.ts"
+  ]
+}
